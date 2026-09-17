@@ -6,12 +6,13 @@ let answers=document.querySelector('.answers');
 let submitButton=document.querySelector('.submit-button');
 let resultMsg=document.querySelector('.result');
 let countDown=document.querySelector('.count-down');
+let resultImage = document.querySelector(".result-image img");
 
 
 let currentQuestion=0;
 let correctAnswers =0;
 let countDownInterval;
-let duration =5;
+let duration =15;
 
 function getQuestions () {
   let myRequest = new XMLHttpRequest();
@@ -181,19 +182,34 @@ function showResults(count){
         answers.remove();
         submitButton.remove();
         bulletsContainer.remove();
+
+        if (correctAnswers === count) {
+          theResults = `<span class="perfect">Perfect</span>, ${correctAnswers} from ${count}`;
+          resultImage.src = "perfect.png";
+        }
+
+        if (correctAnswers >= count / 2 && correctAnswers < count) {
+          theResults = `<span class="good">Good</span>, ${correctAnswers} from ${count}`;
+          resultImage.src = "good.png";
+        }
+
+        if (correctAnswers < count / 2) {
+          theResults = `<span class="bad">Bad</span>, ${correctAnswers} from ${count}`;
+          resultImage.src = "bad.png";
+        }
    
 
-        if(correctAnswers === count){
-            theResults=`<span class="perfect">Perfect</span>, ${correctAnswers} from ${count}`;
-        }
+        // if(correctAnswers === count){
+        //     theResults=`<span class="perfect">Perfect</span>, ${correctAnswers} from ${count}`;
+        // }
 
-        if(correctAnswers >= count/2 && correctAnswers <count){
-            theResults=`<span class="good">Good</span>, ${correctAnswers} from ${count}`;
-        }
+        // if(correctAnswers >= count/2 && correctAnswers <count){
+        //     theResults=`<span class="good">Good</span>, ${correctAnswers} from ${count}`;
+        // }
 
-        if(correctAnswers < count/2){
-            theResults=`<span class="bad">Bad</span>, ${correctAnswers} from ${count}`;
-        }
+        // if(correctAnswers < count/2){
+        //     theResults=`<span class="bad">Bad</span>, ${correctAnswers} from ${count}`;
+        // }
 
         resultMsg.innerHTML=theResults;
         // resultMsg.style.padding="10px";

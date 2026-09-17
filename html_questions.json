@@ -52,5 +52,42 @@
     "answer_4": "C++", 
     "right_answer": "SQL" 
 } 
+,
+{
+"title": "Which Algorithm Is Used To Find An Item In A Sorted List Efficiently?",
+"answer_1": "Linear Search",
+"answer_2": "Binary Search",
+"answer_3": "Bubble Sort",
+"answer_4": "Selection Sort",
+"right_answer": "Binary Search"
+},
+
+
+{
+    "title": "What Does CPU Stand For?",
+    "answer_1": "Central Processing Unit",
+    "answer_2": "Computer Processing Utility",
+    "answer_3": "Central Program Unit",
+    "answer_4": "Computer Program Unit",
+    "right_answer": "Central Processing Unit"
+},
+
+{
+    "title": "Which Data Structure Follows LIFO?",
+    "answer_1": "Queue",
+    "answer_2": "Array",
+    "answer_3": "Stack",
+    "answer_4": "Tree",
+    "right_answer": "Stack"
+},
+
+{
+    "title": "Which Language Is Commonly Used To Build Web Pages?",
+    "answer_1": "HTML",
+    "answer_2": "SQL",
+    "answer_3": "C",
+    "answer_4": "Python",
+    "right_answer": "HTML"
+}
 
 ]
