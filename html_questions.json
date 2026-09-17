@@ -1,0 +1,56 @@
+[
+{
+"title": "Which Programming Language Does CS50 Introduce First?",
+"answer_1": "Python",
+"answer_2": "C",
+"answer_3": "Java",
+"answer_4": "JavaScript",
+"right_answer": "C"
+},
+
+{ 
+    "title": "What Is Scratch Used For In CS50?", 
+    "answer_1": "Building Databases", 
+    "answer_2": "Learning Programming Concepts", 
+    "answer_3": "Writing SQL Queries", 
+    "answer_4": "Creating Web Servers", 
+    "right_answer": "Learning Programming Concepts" 
+}, 
+
+{ 
+    "title": "What Does RAM Stand For?", 
+    "answer_1": "Random Access Memory", 
+    "answer_2": "Read Access Memory", 
+    "answer_3": "Random Application Memory", 
+    "answer_4": "Run Access Memory", 
+    "right_answer": "Random Access Memory" 
+}, 
+
+{ 
+    "title": "Which Data Structure Uses FIFO?", 
+    "answer_1": "Stack", 
+    "answer_2": "Queue", 
+    "answer_3": "Tree", 
+    "answer_4": "Hash Table", 
+    "right_answer": "Queue" 
+}, 
+
+{ 
+    "title": "What Is The Purpose Of A Function?", 
+    "answer_1": "To Repeat Reusable Code", 
+    "answer_2": "To Store Only Numbers", 
+    "answer_3": "To Create A Database", 
+    "answer_4": "To Delete Variables", 
+    "right_answer": "To Repeat Reusable Code" 
+}, 
+
+{ 
+    "title": "Which Language Does CS50 Use For Database Queries?", 
+    "answer_1": "HTML", 
+    "answer_2": "CSS", 
+    "answer_3": "SQL", 
+    "answer_4": "C++", 
+    "right_answer": "SQL" 
+} 
+
+]
