@@ -185,17 +185,17 @@ function showResults(count){
 
         if (correctAnswers === count) {
           theResults = `<span class="perfect">Perfect</span>, ${correctAnswers} from ${count}`;
-          resultImage.src = "perfect.png";
+          resultImage.src = "images/perfect.png";
         }
 
         if (correctAnswers >= count / 2 && correctAnswers < count) {
           theResults = `<span class="good">Good</span>, ${correctAnswers} from ${count}`;
-          resultImage.src = "good.png";
+          resultImage.src = "images/good.png";
         }
 
         if (correctAnswers < count / 2) {
           theResults = `<span class="bad">Bad</span>, ${correctAnswers} from ${count}`;
-          resultImage.src = "bad.png";
+          resultImage.src = "images/bad.png";
         }
    
 
